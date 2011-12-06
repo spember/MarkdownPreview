@@ -1,8 +1,8 @@
 import sublime, sublime_plugin, webbrowser, subprocess
 
 class MarkdownPreviewCommand(sublime_plugin.TextCommand):
-	"""This command is a simple bit of code that utilizes MultiMarkdown to convert a markdown script to 
-
+	"""This command is a simple bit of code that utilizes MultiMarkdown to convert a markdown script to an html file. The file will then be opened in 
+	a new tab or window, depending on the browser 
 	"""
 	def run(self, edit):
 		settings = sublime.load_settings(__name__ + '.sublime-settings')
