@@ -21,7 +21,7 @@ So, I downloaded [MultiMarkdown][mmd] and threw this quickly together. I've been
 Clone this repo into your Packages folder. To execute the preview, you can use the command palette to execute the preview (Markdown Preview: HTML) or the default key binding of cmd-shift-m.
 
 ## Notes ##
-Since this was developed for Mac OS X, there's been no testing for windows / linux, and the 
+Since this was developed for Mac OS X, there's been no testing for windows / linux
 
 [mmd]: http://fletcherpenney.net/multimarkdown/
 
