@@ -33,14 +33,13 @@ Alternatively, execute the "Markdown Preview:HTML" command from the Command Pale
 
 ## UTF-8 Special Characters ##
 
-In order for this module to process UTF-8 characters (e.g. 'ö' or 'è') correctly, you should include a meta tag deonoting that the document is UTF-8. At a minimum, this will look like:
+In order for this module to process UTF-8 characters (e.g. 'ö' or 'è') correctly, you should include a meta tag denoting that the document is UTF-8. At a minimum, this will look like:
 
 	<head>
 		<title>Some Title</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	</head>
 
-With the above included in your document, 
 
 ## Notes ##
 Since this was developed for Mac OS X, there's been no testing for windows / linux. The default key binding is also only set for Mac OSX
